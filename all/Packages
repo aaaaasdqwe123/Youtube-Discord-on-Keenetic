@@ -1,0 +1,21 @@
+Package: nfqws-keenetic
+Version: 2.8.1
+Depends: iptables, busybox
+Conflicts: tpws-keenetic
+Section: net
+Architecture: all
+Filename: nfqws-keenetic_2.8.1_all_entware.ipk
+Size: 865862
+SHA256sum: 7bd73177f13c368ea6419b165a02b42fd4689e29f8da3f27aaffb3012bc1bdd8
+Description:  NFQWS service
+
+Package: nfqws-keenetic-web
+Version: 2.8.1
+Depends: nfqws-keenetic, php8-cgi, php8-mod-session, lighttpd, lighttpd-mod-cgi, lighttpd-mod-setenv, lighttpd-mod-rewrite, lighttpd-mod-redirect
+Section: net
+Architecture: all
+Filename: nfqws-keenetic-web_2.8.1_all_entware.ipk
+Size: 29238
+SHA256sum: be6bde37470c70224f6e35c3b546f64a202401f864af9903cc6db6d40d1fdc21
+Description:  NFQWS service web interface
+
